@@ -1,0 +1,18 @@
+{
+  "name": "koplaxsjs",
+  "scripts": {
+    "postdeploy": "koplaxs.py"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
